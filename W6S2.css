@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* .test{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    animation-name: ayah;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /* animation: ayah 10s 2s infinite alternate ; 
+}
+@keyframes ayah {
+    0% { background-image: url('Ace.jfif');
+    }
+    30% { background-image: url('Akai.jfif');
+    }
+    60% { background-image: url('cfwdA9Y5kO.png');
+    }
+    100% { background-image: url('IMG_20190906_115612.jpg');
+    }
+} */
+.akai{
+    background-image: url('1853a422def9c19e8027182f68e087f5.png');
+    height: 700px;
+    width: 25%;
+    position: relative;
+    top:0;
+    animation-name: ayah;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes ayah {
+    0% { left:0px;
+    }
+    /* 25% {
+        left:275px;
+    }
+    50% { left:825px;
+    } */
+
+    100% { left:1100px;
+    }
+}
